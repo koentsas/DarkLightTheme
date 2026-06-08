@@ -2,7 +2,7 @@
     "name": "darklight-hybrid-theme",
     "displayName": "DarkLight Hybrid Theme",
     "description": "A VS Code theme with a dark workbench and a light editor.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "tsasson",
     "license": "MIT",
     "repository": {
