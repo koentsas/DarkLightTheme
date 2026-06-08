@@ -48,13 +48,13 @@
         "editorLineNumber.foreground": "#A8B1BC",
         "editorLineNumber.activeForeground": "#5C6673",
         "editorCursor.foreground": "#EA580C",
-        "editorBracketHighlight.foreground1": "#EC4899",
-        "editorBracketHighlight.foreground2": "#F472B6",
-        "editorBracketHighlight.foreground3": "#DB2777",
-        "editorBracketHighlight.foreground4": "#EC4899",
-        "editorBracketHighlight.foreground5": "#F472B6",
-        "editorBracketHighlight.foreground6": "#DB2777",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#F9A8D4",
+        "editorBracketHighlight.foreground1": "#8B5CF6",
+        "editorBracketHighlight.foreground2": "#A78BFA",
+        "editorBracketHighlight.foreground3": "#7C3AED",
+        "editorBracketHighlight.foreground4": "#8B5CF6",
+        "editorBracketHighlight.foreground5": "#A78BFA",
+        "editorBracketHighlight.foreground6": "#7C3AED",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#C4B5FD",
         "editor.selectionBackground": "#DDF4E8",
         "editor.inactiveSelectionBackground": "#EBF8F1",
         "editor.selectionHighlightBackground": "#E8F6EF",
@@ -196,7 +196,7 @@
                 "meta.delimiter"
             ],
             "settings": {
-                "foreground": "#EC4899"
+                "foreground": "#8B5CF6"
             }
         }
     ],
