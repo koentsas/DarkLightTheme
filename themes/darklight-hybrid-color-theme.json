@@ -6,6 +6,9 @@
     "colors": {
         "focusBorder": "#10B981",
         "foreground": "#D7DEE8",
+        "icon.foreground": "#4B5563",
+        "toolbar.hoverBackground": "#CBD5E133",
+        "toolbar.activeBackground": "#94A3B833",
         "descriptionForeground": "#8E99A8",
         "errorForeground": "#F28B82",
         "selection.background": "#2C405B",
@@ -70,6 +73,7 @@
         "editorIndentGuide.background1": "#D8D0C3",
         "editorIndentGuide.activeBackground1": "#B7AFA0",
         "editorRuler.foreground": "#D9D2C6",
+        "editorHoverWidget.foreground": "#1F2430",
         "editorHoverWidget.background": "#FFFDF8",
         "editorHoverWidget.border": "#CCD6E2",
         "walkThrough.embeddedEditorBackground": "#131925",
@@ -85,6 +89,13 @@
         "button.background": "#0F766E",
         "button.foreground": "#F8FBFF",
         "button.hoverBackground": "#0D9488",
+        "button.secondaryBackground": "#1E293B",
+        "button.secondaryForeground": "#F8FBFF",
+        "button.secondaryHoverBackground": "#334155",
+        "inputOption.activeBackground": "#134E4A",
+        "inputOption.activeForeground": "#F8FBFF",
+        "inputOption.activeBorder": "#10B981",
+        "inputOption.hoverBackground": "#1E293B26",
         "input.background": "#FFFDF8",
         "input.foreground": "#1F2430",
         "input.border": "#C9D2DE",
@@ -98,7 +109,8 @@
         "welcomePage.progress.foreground": "#10B981",
         "notificationCenterHeader.background": "#161B24",
         "notifications.background": "#161B24",
-        "notifications.foreground": "#D7DEE8"
+        "notifications.foreground": "#D7DEE8",
+        "chat.editedFileForeground": "#1F2430"
     },
     "tokenColors": [
         {
