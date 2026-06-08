@@ -25,6 +25,16 @@
                 "label": "DarkLight Hybrid",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darklight-hybrid-color-theme.json"
+            },
+            {
+                "label": "DarkLight Hybrid Reverse",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darklight-hybrid-reverse-color-theme.json"
+            },
+            {
+                "label": "DarkLight Hybrid Reverse (Original Editor Text)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darklight-hybrid-reverse-original-editor-text-color-theme.json"
             }
         ]
     },
