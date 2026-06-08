@@ -30,10 +30,34 @@ npm run package
 
 ## Publish
 
-Before publishing, replace the placeholder `publisher` value in `package.json` with your Marketplace publisher id.
-
 Then publish with:
 
 ```bash
 npm run publish:vsce
 ```
+
+## Auto Publish On GitHub Release
+
+This repository is configured to publish automatically when a GitHub Release is published.
+
+Workflow file:
+
+- `.github/workflows/publish-on-release.yml`
+
+What it does:
+
+1. Runs on `release.published`.
+2. Ensures release tag matches `package.json` version (`vX.Y.Z` tag format is supported).
+3. Packages the extension as `darklight-hybrid-theme.vsix`.
+4. Publishes to VS Code Marketplace using `VSCE_PAT`.
+5. Uploads the VSIX to the GitHub release assets.
+
+Required repository secret:
+
+- `VSCE_PAT`: Personal Access Token from your VS Code Marketplace publisher account.
+
+Release checklist:
+
+1. Bump `version` in `package.json`.
+2. Commit and push.
+3. Create a GitHub release tag (for example `v0.0.2`) that matches the package version.

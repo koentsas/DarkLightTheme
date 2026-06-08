@@ -3,8 +3,17 @@
     "displayName": "DarkLight Hybrid Theme",
     "description": "A VS Code theme with a dark workbench and a light editor.",
     "version": "0.0.1",
-    "publisher": "your-publisher",
+    "publisher": "tsasson",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/koentsas/DarkLightTheme.git"
+    },
+    "homepage": "https://github.com/koentsas/DarkLightTheme",
+    "bugs": {
+        "url": "https://github.com/koentsas/DarkLightTheme/issues"
+    },
+    "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.85.0"
     },
